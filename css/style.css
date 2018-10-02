@@ -45,13 +45,16 @@ h1, h2, h3, h4, h5,
     padding-left: 20px;
     padding-right: 20px; }
     @media screen and (max-width: 960px) {
+      .ftco-navbar-light .navbar-nav{
+        margin-top: 15px;
+      }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 0px;
         padding-right: 0px;
         color: #fff;
-        border-top: 1px solid #4a4e71;}
+        border: none;}
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active{
       color: #2EE59D;
     }
