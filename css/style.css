@@ -103,11 +103,11 @@ h1, h2, h3, h4, h5,
    color: #000 !important;
    border: none;
   font-weight: bold;
-  font-family: Quicksand;}
+  font-family: Poppins;}
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
     color: #2EE59D;
     font-weight: bold;
-    font-family: Quicksand;
+    font-family:Poppins;
   }
 
     @media screen and (max-width: 768px) {
