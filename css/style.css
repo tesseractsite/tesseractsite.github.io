@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #262626 !important;
+    background: #101517 !important;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.08);
  }
  .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5,
         background: none;
         padding-left: 0 !important;
         padding-right: 0 !important; }
+
 
  }
     .ftco-navbar-light.scrolled .navbar-toggler {
@@ -322,7 +323,7 @@ textarea {
     background: #f2f2f2 !important; }
 
 .ftco-bg-dark {
-  background:#1b2326; }
+  background:#101517; }
 
 .ftco-footer {
   font-size: 16px; }
