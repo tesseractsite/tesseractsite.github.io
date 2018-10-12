@@ -216,14 +216,25 @@ background: transparent;}
 
     @media screen and (max-width: 768px)
     {
-      .fg{
-        background: #262626;
-        padding: 0px 20px;
-      }
+      .
       .log{
         padding-left: 20px;
-        height:40px;
+        height:35px;
         width:auto;
         display:inline-block;
       }
     }
+.overlay{
+  background: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  filter: blur(8px);
+-webkit-filter: blur(8px);
+  background-size:contain;
+
+}
+
+.footer-brand{
+  height: 60px;
+  width: auto;
+
+}
