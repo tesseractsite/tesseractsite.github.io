@@ -243,6 +243,8 @@ background: transparent;}
   width: 30px;
   height: 30px;
   display: flex;
+  color:white;
+  background:white;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
