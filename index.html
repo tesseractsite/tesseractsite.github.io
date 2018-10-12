@@ -33,7 +33,11 @@
       <div class="container">
         <a class=" navbar-brand"href=" index.html"><img src="images/logo-light.png" class="log"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span>
+                    <div class="wrapper-menu">
+          <div class="line-menu half start"></div>
+           <div class="line-menu"></div>
+          <div class="line-menu half end"></div>
+      </div>
         </button>
 
         <div class="collapse navbar-collapse fg" id="ftco-nav">
@@ -920,5 +924,13 @@ module.exports = {
 tmripple.init()
 </script>
 
+      
+<script>
+var wrapperMenu = document.querySelector('.wrapper-menu');
+
+wrapperMenu.addEventListener('click', function(){
+  wrapperMenu.classList.toggle('open');
+})
+</script>
   </body>
 </html>
