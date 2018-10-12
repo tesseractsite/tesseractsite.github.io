@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5,
   @media screen and (max-width: 991px) {
     .ftco-navbar-light {
       background: transparent !important;
-      padding: 10px 0px;
+      padding: 10px 0px 0px 0px;
       top: 0;
       /*box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.07);*/
        } }
@@ -49,12 +49,13 @@ h1, h2, h3, h4, h5,
     @media screen and (max-width: 960px) {
       .ftco-navbar-light .navbar-nav{
         margin-top: 15px;
+        background: #0c1012;
       }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
         color: #fff;
         border: none;}
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active{
@@ -96,8 +97,8 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #101517 !important;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.08);
+    background: #0c1012 !important;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.53);
  }
  .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
    padding-top: 0.7rem !important;
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5,
         padding-right: 0rem !important; } }
     @media screen and (max-width: 576px) {
       .ftco-navbar-light.scrolled .navbar-nav {
-        background: none;
+        background: #0c1012;
         padding-left: 0 !important;
         padding-right: 0 !important; }
 
