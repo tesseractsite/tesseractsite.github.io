@@ -3,7 +3,7 @@
     color: #ffffff;
   }
     .fa-ticket{
-      font-size: 30px;
+      font-size: 40px;
       padding: 20px 20px;
       border-radius: 50%;
       border: 1px solid #F5F5F5;
@@ -74,25 +74,26 @@
 .reg-card:before {
   content: "";
   position: absolute;
-  background: #0b0b0a;
+  background: #262622;
   top: 0;
   left: 15px;
   right: 15px;
   bottom: 100%;
   z-index:-1;
   border-radius: 10px;
-  -webkit-transition: bottom 1s ease-in;
+  -webkit-transition: bottom 0.6s ease-in;
 }
 
 .reg-card:hover:before {
-  bottom: 0;
+  bottom: 16px;
   left:15px;
   right: 15px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
   .speaker-links{
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: bold;
     padding: 5px 9px;
     background: #E8E8E8;
     border-radius: 12px;
@@ -283,7 +284,7 @@ background: transparent;}
       .
       .logo{
         padding-left: 20px;
-        height:35px;
+        height:32px;
         width:auto;
         display:inline-block;
       }
