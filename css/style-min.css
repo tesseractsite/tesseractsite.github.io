@@ -169,7 +169,7 @@ background: transparent;}
        font-family: Monoton;
        font-weight: bold;
        letter-spacing: 2px;
-       white-space: nowrap;
+       white-space:wrap;
      }
 
      .subheading{
