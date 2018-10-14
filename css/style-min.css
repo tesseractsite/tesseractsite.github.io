@@ -176,7 +176,7 @@ background: transparent;}
        font-size: 30px;
        color: white;
        font-family: Poppins;
-       font-weight: bold;
+       font-weight: normal;
        letter-spacing: 2px;
        white-space: nowrap;
      }
@@ -210,7 +210,7 @@ background: transparent;}
      @media screen and (max-width: 768px)
      {
        .heading{
-         font-size: 30px;
+         font-size: 25px;
        }
 
        .subheading{
