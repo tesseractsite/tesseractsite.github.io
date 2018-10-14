@@ -75,17 +75,17 @@
   content: "";
   position: absolute;
   background: #262622;
-  bottom: 0;
+  top: 0;
   left: 15px;
   right: 15px;
-  top: 100%;
+  bottom: 100%;
   z-index:-1;
   border-radius: 10px;
   -webkit-transition: bottom 0.5s;
 }
 
 .reg-card:hover:before {
-  top: 16px;
+  bottom: 16px;
   left:15px;
   right: 15px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -217,7 +217,7 @@ background: transparent;}
          font-size: 18px;
        }
        .mini-subheading{
-         font-size: 15px;
+         font-size: 14px;
        }
        .section-headers{
          font-size: 25px;
