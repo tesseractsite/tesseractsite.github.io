@@ -6,21 +6,21 @@
       font-size: 40px;
       padding: 20px 20px;
       border-radius: 50%;
-      border: 1px solid #F5F5F5;
+      background: #F5F5F5;
       color: #2EE59D;
 
     }
   .para-font1{
-    font-family: Quicksand;
+    font-family: 'Titillium Web', sans-serif;
   }
   .para-font2{
-    font-family: Quicksand;
+    font-family: 'Titillium Web', sans-serif;
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
   }
   .para-font3{
-    font-family: Quicksand;
+    font-family: 'Titillium Web', sans-serif;
     color: #ffffff;
     font-size: 15px;
     letter-spacing: 2px;
@@ -28,20 +28,27 @@
   .speakers-card{
     background: #ffffff;
     box-sizing: border-box;
-    font-family: Quicksand;
-    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: normal;
     color: #666666;
   }
 
   .reg-card{
     background: #ffffff;
     border-radius: 10px;
-
+box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.15);
   }
 
+.reg-card:hover  .fa-ticket{
+    font-size: 40px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background: #43433d;
+    color: #2EE59D;
 
+  }
 .registration-details-header{
-  font-family: Poppins;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
   color: #000000;
   font-size: 20px;
@@ -75,21 +82,20 @@
   content: "";
   position: absolute;
   background: #262622;
-  top: 0;
+  bottom: 20px;
   left: 15px;
   right: 15px;
-  bottom: 100%;
+  top: 100%;
   z-index:-1;
   border-radius: 10px;
-  -webkit-transition: bottom 0.5s;
+  -webkit-transition: top 1s ease-in-out;
 }
 
 .reg-card:hover:before {
-  bottom: 16px;
-  left:15px;
+  top: 0px;
+  bottom: 20px;
   right: 15px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
+  left:15px;
 }
   .speaker-links{
     font-size: 11px;
@@ -99,7 +105,7 @@
     border-radius: 12px;
   }
   .footer-font{
-    font-family: Quicksand;
+    font-family: 'Titillium Web', sans-serif;
     letter-spacing: 1.5px;
     font-weight: bold;
   }
@@ -121,7 +127,7 @@ background: transparent;}
      .reg-button {
        width: 200px;
        height: 45px;
-       font-family: 'Roboto', sans-serif;
+       font-family: 'Titillium Web', sans-serif;
        font-size: 13px;
        text-transform: uppercase;
        letter-spacing: 2.5px;
@@ -143,7 +149,7 @@ background: transparent;}
      .brochure-button {
        width: 230px;
        height: 40px;
-       font-family:Raleway;
+       font-family: 'Titillium Web', sans-serif;
        font-size: 11px;
        text-transform: uppercase;
        letter-spacing: 2.5px;
@@ -164,37 +170,38 @@ background: transparent;}
 
 
      .heading{
-       font-size: 45px;
+       font-size: 60px;
        color: white;
-       font-family: Monoton;
-       font-weight: bold;
+       font-family: 'Titillium Web', sans-serif;
+       font-weight: 900;
        letter-spacing: 2px;
-       white-space:wrap;
+       white-space: wrap;
      }
 
      .subheading{
        font-size: 30px;
        color: white;
-       font-family: Poppins;
-       font-weight: normal;
+       font-family: 'Titillium Web', sans-serif;
+       font-weight: 700;
        letter-spacing: 2px;
-       white-space: nowrap;
+       white-space:wrap;
      }
      .mini-subheading{
        font-size: 18px;
        color: white;
-       font-family: Raleway;
+       font-family: 'Titillium Web', sans-serif;
+       font-weight: 300;
        letter-spacing: 2px;
-       white-space: nowrap;
+       white-space:wrap;
      }
      .section-headers{
-       font-size: 30px;
-       font-family: Poppins;
-       font-weight: bold;
+       font-size: 35px;
+       font-family: 'Titillium Web', sans-serif;
+       font-weight: 600;
      }
      .contact-headers{
        font-size: 28px;
-       font-family: Poppins;
+       font-family: 'Titillium Web', sans-serif;
        font-weight: bold;
      }
 
@@ -210,14 +217,14 @@ background: transparent;}
      @media screen and (max-width: 768px)
      {
        .heading{
-         font-size: 25px;
+         font-size: 32px;
        }
 
        .subheading{
          font-size: 18px;
        }
        .mini-subheading{
-         font-size: 14px;
+         font-size: 16px;
        }
        .section-headers{
          font-size: 25px;
@@ -284,7 +291,7 @@ background: transparent;}
       .
       .logo{
         padding-left: 20px;
-        height:30px;
+        height:28px;
         width:auto;
         display:inline-block;
       }
@@ -450,4 +457,10 @@ background: transparent;}
   position: absolute;
   left: 18px;
   bottom: 6px;
+}
+
+
+.event-highlights{
+  height: 150px;
+  width: 150px;
 }
