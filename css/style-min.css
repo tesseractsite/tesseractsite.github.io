@@ -227,12 +227,12 @@ background: transparent;}
          font-size: 16px;
        }
        .section-headers{
-         font-size: 25px;
-         font-weight: bold;
+         font-size: 28px;
+         font-weight:500;
        }
        .contact-headers{
-         font-size: 24px;
-         font-weight: bold;
+         font-size: 26px;
+         font-weight: 500;
        }
        .navbar-brand {
       font-size: 1rem;
@@ -288,9 +288,8 @@ background: transparent;}
 
     @media screen and (max-width: 768px)
     {
-      .
       .logo{
-        padding-left: 20px;
+        padding-left: 25px;
         height:20px;
         width:auto;
         display:inline-block;
