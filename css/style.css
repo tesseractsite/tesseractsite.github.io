@@ -2,7 +2,7 @@ html {
   overflow-x: hidden; }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Titillium Web', sans-serif
   line-height: 1.8;
   font-size: 16px;
   background: #fff;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5,
         background: #0c1012;
       }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-        padding: 15px 20px;
+        padding: 7px 20px;
         color: #fff;
         border: none;}
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active{
@@ -94,20 +94,19 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #0c1012 !important;
+    background: #6700FF !important;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.53);
  }
  .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
-   padding-top: 0.7rem !important;
-   padding-bottom: 0.7rem !important;
+
    color: #fff !important;
    border: none;
   font-weight: bold;
-  font-family: Poppins;}
+  font-family: 'Titillium Web', sans-serif;}
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
     color: #ffffff;
     font-weight: bold;
-    font-family: Poppins;
+    font-family: 'Titillium Web', sans-serif;
   }
 
     @media screen and (max-width: 768px) {
@@ -119,7 +118,7 @@ h1, h2, h3, h4, h5,
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
           color:#2EE59D;
           font-weight: bold;
-          font-family: Poppins;
+          font-family: 'Titillium Web', sans-serif;
         }}
     @media screen and (max-width: 576px) {
       .ftco-navbar-light.scrolled .navbar-nav {
