@@ -4,10 +4,9 @@
   }
     .fa-ticket{
       font-size: 45px;
-      padding: 20px 20px;
+      padding: 25px 25px;
       border-radius: 50%;
-      background: none;
-      border: 1px solid #f5f5f5;
+      background: #f5f5f5;
       color:#6600ff;
 
     }
@@ -40,16 +39,15 @@
 box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
   }
 
-    .reg-card:hover{
+  /*  .reg-card:hover{
       background: #ffffff;
       border-radius: 10px;
       background: linear-gradient(to bottom, #6600ff 0%, #9900cc 100%);
   box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
-    }
+    }*/
 .reg-card:hover  .fa-ticket{
     font-size: 40px;
-    padding: 20px 20px;
-    border: none;
+    padding: 25px 25px;
     border-radius: 50%;
     background: #7e01fd;
     color: #2EE59D;
@@ -58,10 +56,10 @@ box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
   background-color:#2EE59D;
   }
 .registration-details-header{
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
-  color: #000000;
-  font-size: 20px;
+  font-family:sans-serif;
+  font-weight: 900;
+  color: #333333;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 .reg-card:hover .registration-details-header{
@@ -88,7 +86,7 @@ box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
 .reg-card:hover .registration-amount{
   color: white;
 }
-/*
+
 .reg-card:before {
   content: "";
   position: absolute;
@@ -107,7 +105,7 @@ bottom: 20px;
   top: 0px;
   right: 15px;
   left:15px;
-}*/
+}
   .speaker-links{
     font-size: 11px;
     font-weight: bold;
