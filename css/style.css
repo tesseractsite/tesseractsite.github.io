@@ -35,29 +35,42 @@ h1, h2, h3, h4, h5,
   @media screen and (max-width: 991px) {
     .ftco-navbar-light {
       background: transparent !important;
-      padding: 5px 0px 5px 0px;
+      padding: 10px 0px 4px 0px;
       top: 0;
       /*box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.07);*/
-       } }
+       }
+       .ftco-navbar-light.scrolled {
+         background: transparent !important;
+         padding: px 0px 4px 0px;
+         top: 0;
+         /*box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.07);*/
+          } }
+
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 20px;
     font-weight: bold;}
+    .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
+      font-size: 16px;
+      padding: 20px 20px;
+      font-weight: bold;}
+
     @media screen and (max-width: 960px) {
       .ftco-navbar-light .navbar-nav{
         margin-top: 15px;
         background: #6700FF;
       }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-        padding: 7px 20px;
+        padding: 8px 20px;
         color: #fff;
         border: none;}
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active{
       color: #2EE59D;
     }
+    .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
+      font-size: 16px;
+      padding: 8px 20px;
+      font-weight: bold;}
   }
   .ftco-navbar-light .navbar-nav > .nav-item.ftco-cta a {
     color: #fff; }
@@ -94,8 +107,8 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #6700FF !important;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.53);
+    background: #6F00F7 !important;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.23);
  }
  .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
 
@@ -122,7 +135,7 @@ h1, h2, h3, h4, h5,
         }}
     @media screen and (max-width: 576px) {
       .ftco-navbar-light.scrolled .navbar-nav {
-        background: #6700FF;
+        background:#6F00F7;
         padding-left: 0 !important;
         padding-right: 0 !important; }
 
@@ -143,13 +156,13 @@ h1, h2, h3, h4, h5,
         color: #2EE59D !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
-      -webkit-transition: .3s all ease-out;
-      -o-transition: .3s all ease-out;
-      transition: .3s all ease-out; }
+      -webkit-transition: .4s all  ease-in;
+      -o-transition: .4s all ease-in;
+      transition: .4s all ease-in; }
     .ftco-navbar-light.scrolled.sleep {
-      -webkit-transition: .3s all ease-out;
-      -o-transition: .3s all ease-out;
-      transition: .3s all ease-out; }
+      -webkit-transition: .4s all ease-out;
+      -o-transition: .4s all ease-out;
+      transition: .4s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #000; }
 
