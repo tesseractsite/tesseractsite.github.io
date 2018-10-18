@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5,
     top: 0;
     margin-top: -130px;
     background:#6600ff !important;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
  }
  .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
 
@@ -400,8 +400,8 @@ textarea {
   margin: 0 10px 10px 0;
   display: inline-block; }
   .ftco-footer-social li a {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     display: block;
     float: left;
     background: rgba(255, 255, 255, 0.05);
@@ -409,9 +409,10 @@ textarea {
     position: relative; }
     .ftco-footer-social li a span {
       position: absolute;
-      font-size: 26px;
+      font-size: 20px;
       top: 50%;
       left: 50%;
+      color: white;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
