@@ -230,7 +230,7 @@ background: transparent;}
        font-weight: 500;
      }
      .contact-headers{
-       font-size: 28px;
+       font-size: 30px;
        font-family:Poppins;
        font-weight: bold;
      }
@@ -257,11 +257,11 @@ background: transparent;}
          font-size: 16px;
        }
        .section-headers{
-         font-size: 27px;
+         font-size: 28px;
          font-weight:500;
        }
        .contact-headers{
-         font-size: 24px;
+         font-size: 28px;
          font-weight: bold;
        }
        .navbar-brand {
@@ -271,16 +271,13 @@ background: transparent;}
      .hr-line{
        height: 2px;
        padding: 0 0;
-       width:70px;
+       width:60px;
        background: #2EE49D;
      }
      @media screen and (max-width: 768px)
 {
   .hr-line{
-    height: 2px;
-    padding: 0 0;
-    width: 70px;
-    background: #2EE49D;
+    width:50px;
   }
 }
      .speaker-image{
