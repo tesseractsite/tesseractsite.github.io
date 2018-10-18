@@ -8,7 +8,7 @@
       border-radius: 50%;
       background: none;
       border: 1px solid #f5f5f5;
-      color: #2EE59D;
+      color:#6600ff;
 
     }
   .para-font1{
@@ -39,13 +39,13 @@
     border-radius: 10px;
 box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
   }
-/*
+
     .reg-card:hover{
       background: #ffffff;
       border-radius: 10px;
       background: linear-gradient(to bottom, #6600ff 0%, #9900cc 100%);
   box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
-    }*/
+    }
 .reg-card:hover  .fa-ticket{
     font-size: 40px;
     padding: 20px 20px;
@@ -53,7 +53,9 @@ box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
     border-radius: 50%;
     background: #7e01fd;
     color: #2EE59D;
-
+  }
+.reg-card:hover .reg-button2 {
+  background-color:#2EE59D;
   }
 .registration-details-header{
   font-family: 'Titillium Web', sans-serif;
@@ -86,7 +88,7 @@ box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
 .reg-card:hover .registration-amount{
   color: white;
 }
-
+/*
 .reg-card:before {
   content: "";
   position: absolute;
@@ -105,7 +107,7 @@ bottom: 20px;
   top: 0px;
   right: 15px;
   left:15px;
-}
+}*/
   .speaker-links{
     font-size: 11px;
     font-weight: bold;
@@ -149,11 +151,32 @@ background: transparent;}
        cursor: pointer;
        outline: none;
        }
-     .reg-button:hover {
+     .reg-button2:hover {
        background-color: #2EE59D;
        box-shadow: 0px 5px 10px rgba(46, 229, 157, 0.4);
        color: #fff;
           }
+          .reg-button2 {
+            width: 200px;
+            height: 45px;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            font-weight: 500;
+            color: #fff;
+            background-color:#6600ff;
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            outline: none;
+            }
+          .reg-button:hover {
+            background-color: #2EE59D;
+            box-shadow: 0px 5px 10px rgba(46, 229, 157, 0.4);
+            color: #fff;
+               }
 
      .brochure-button {
        width: 230px;
