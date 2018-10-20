@@ -36,7 +36,7 @@
   .reg-card{
     background: #ffffff;
     border-radius: 10px;
-box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
+box-shadow: 0 3px 10px rgba(0,0,0,0.05), 0 3px 10px rgba(0,0,0,0.1);
   }
 
   /*  .reg-card:hover{
@@ -98,6 +98,9 @@ box-shadow: 0 3px 10px rgba(0,0,0,0.10), 0 3px 10px rgba(0,0,0,0.15);
   z-index:-1;
   border-radius: 10px;
   -webkit-transition: bottom 0.5s ease-in-out;
+  -moz-transition: bottom 0.5s ease-in-out;
+  -o-transition-property: bottom 0.5s ease-in-out;
+  transition:  bottom 0.5s ease-in-out;
 }
 
 .reg-card:hover:before {
@@ -512,10 +515,46 @@ background: transparent;}
 
 .contact{
   box-sizing:content-box;
-  box-shadow: 0px 3px 6px rgba(0,0,0,0.2), 0px 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3), 0px 3px 10px rgba(0,0,0,0.3);
   padding: 0px 0px 40px 0px;
 }
 
 .contact:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.2), 0 10px 10px rgba(0,0,0,0.15);
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'See more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'See less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
