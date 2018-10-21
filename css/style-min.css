@@ -1,5 +1,4 @@
-
-  .fa-linkedin,  .fa-twitter{
+.fa-linkedin,  .fa-twitter{
     color: #ffffff;
   }
     .fa-ticket{
@@ -212,10 +211,10 @@ background: transparent;}
      }
 
      .subheading{
-       font-size: 30px;
+       font-size: 25px;
        color: white;
        font-family: 'Titillium Web', sans-serif;
-       font-weight: 700;
+       font-weight: 500;
        letter-spacing: 2px;
        white-space:wrap;
      }
@@ -231,7 +230,7 @@ background: transparent;}
        font-size: 35px;
        font-family: Poppins;
        font-weight: 700;
-       color: #262626;
+       color: #333333;
      }
      .contact-headers{
        font-size: 30px;
@@ -457,7 +456,6 @@ background: transparent;}
   transform: rotate(180deg);
   cursor: pointer;
   transition: .2s cubic-bezier(.8, .5, .2, 1.4);
-
 }
 .clickMenuOne span{
   border-radius: 50%;
@@ -465,7 +463,6 @@ background: transparent;}
   background-color:rgba(255, 189, 189, 0.767);
   background-color: white;
   transition: .5s cubic-bezier(.8, .5, .2, 1.4);
-
 }
 .clickMenuOne span:nth-child(2) {
   position: absolute;
