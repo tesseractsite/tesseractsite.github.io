@@ -1,12 +1,4 @@
-::-moz-selection { 
-    color: #ffffff;
-    background:#6600ff;
-}
 
-::selection {
-    color: #ffffff;
-    background:#6600ff;
-}
 
 .fa-linkedin,  .fa-twitter{
     color: #ffffff;
