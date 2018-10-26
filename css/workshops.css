@@ -27,20 +27,20 @@ h1, h2, h3, h4, h5,
   color: #4586FF !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background:linear-gradient(to bottom, #5100ff 0%, #6600cc 100%)!important;
   position: absolute;
   left: 0;
   right: 0;
   z-index: 3; }
   @media screen and (max-width: 991px) {
     .ftco-navbar-light {
-      background: transparent !important;
+      background: linear-gradient(to bottom, #5100ff 0%, #6600cc 100%)!important;
       padding: 10px 0px 4px 0px;
       top: 0;
       /*box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.07);*/
        }
        .ftco-navbar-light.scrolled {
-         background: transparent !important;
+         background:linear-gradient(to bottom, #5100ff 0%, #6600cc 100%)!important;
          padding: px 0px 4px 0px;
          top: 0;
          /*box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.07);*/
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5,
 
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
-    padding: 30px 20px;
+    padding: 20px 20px;
     font-weight: bold;}
     .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
       font-size: 16px;
