@@ -25,7 +25,13 @@ h1, h2, h3, h4, h5,
 
 .text-primary {
   color: #4586FF !important; }
-
+  
+  .ftco-navbar-light .logo2 {
+      height: 40px;
+      width: auto;
+      padding-left: 20px;
+      display: inline-block;
+  }
 .ftco-navbar-light {
   background:linear-gradient(to bottom, #5100ff 0%, #6600cc 100%)!important;
   position: absolute;
