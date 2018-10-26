@@ -624,7 +624,7 @@ background: transparent;}
   color: #000;
 }
 .workshop-details{
-   text-align: justify;
+   text-align: left;
  }
 
 
@@ -721,22 +721,22 @@ background: transparent;}
     .pop-up {
       position: fixed;
       width: 100%;
-      background:  #4b00bc;
+      background: #5100cc;
       display: inline-block;
       left: 0;
       bottom: -300px;
       z-index: 99;
-      -webkit-animation: slide 2s forwards;
-      -webkit-animation-delay: 2s;
-      -moz-animation: slide 2s forwards;
-      -o-animation: slide 2s forwards;
-      animation: slide 2s forwards;
-      animation-delay: 2s;
-      -webkit-transition: all 2s ease-in-out;
-      -moz-transition: all 2s ease-in-out;
-      -ms-transition: all 2s ease-in-out;
-      -o-transition: all 2s ease-in-out;
-      transition: all 2s ease-in-out;
+      -webkit-animation: slide 3s forwards;
+      -webkit-animation-delay: 1s;
+      -moz-animation: slide 3s forwards;
+      -o-animation: slide 3s forwards;
+      animation: slide 3s forwards;
+      animation-delay: 3s;
+      -webkit-transition: all 3s ease-in-out;
+      -moz-transition: all 3s ease-in-out;
+      -ms-transition: all 3s ease-in-out;
+      -o-transition: all 3s ease-in-out;
+      transition: all 3s ease-in-out;
     }
 
     .pop-up.close-pop-up {
@@ -771,7 +771,7 @@ background: transparent;}
 
     .pop-up-inner {
       padding:20px 20px;
-      background:linear-gradient(to bottom, #4b00bc 0%, #6c0cfc 80%);
+      background:linear-gradient(to bottom,#5100cc 0%, #6c0cfc 80%);
       text-align:center;
       color: #653d68;
       font-family:Poppins;
