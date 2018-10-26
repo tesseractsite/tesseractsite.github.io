@@ -58,7 +58,11 @@ h1, h2, h3, h4, h5,
     @media screen and (max-width: 960px) {
       .ftco-navbar-light .navbar-nav{
         margin-top: 15px;
+<<<<<<< HEAD
         background: linear-gradient(to bottom, #5100ff 0%, #6600cc 100%)!important;
+=======
+        background: linear-gradient(to bottom, #5100ff 0%, #6600cc 90%);
+>>>>>>> d45437419e77029611c42e5e6caf0b5aa83ea2cc
       }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding: 8px 20px;
@@ -138,7 +142,11 @@ h1, h2, h3, h4, h5,
     @media screen and (max-width: 576px) {
       .ftco-navbar-light.scrolled .navbar-nav {
 
+<<<<<<< HEAD
         background: linear-gradient(to top, #5d11ff 30%, #4300cc 100%);
+=======
+        background: linear-gradient(to bottom, #5100ff 0%, #6600cc 90%);
+>>>>>>> d45437419e77029611c42e5e6caf0b5aa83ea2cc
         padding-left: 0 !important;
         padding-right: 0 !important; }
 
