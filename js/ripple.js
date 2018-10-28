@@ -199,5 +199,3 @@ module.exports = {
 /***/ })
 /******/ ]);
 tmripple.init()
-
-#6600ff 30%, #9900cc
