@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5,
 
 .text-primary {
   color: #4586FF !important; }
-  
+
   .ftco-navbar-light .logo2 {
       height: 40px;
       width: auto;
@@ -55,7 +55,8 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
     padding: 20px 20px;
-    font-weight: bold;}
+    font-weight: bold;
+  color: #ffffff;}
     .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link {
       font-size: 16px;
       padding: 20px 20px;
@@ -163,6 +164,8 @@ h1, h2, h3, h4, h5,
 
       .ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link.active {
         color: #2EE59D !important; }
+
+
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .4s all  ease-in;
