@@ -580,6 +580,9 @@ background: transparent;}
   display: none;
 }
 
+.workshops-img2{
+  border-radius: 12px;
+}
 .read-more-target {
   opacity: 0;
   max-height: 0;
